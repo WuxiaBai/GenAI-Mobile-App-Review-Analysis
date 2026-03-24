@@ -1,0 +1,58 @@
+{
+    "Technical Aspects": {
+        "Technical Issue": {
+            "Crashes or Errors": "Crashes or Errors during APP operation",
+            "Network Connection Issues": "Network issues when interacting with the server",
+            "Compatibility Issues": "Compatibility issues between the app and the device's software and hardware"
+        },
+        "Functionality and Updates": {
+            "Key Functionality Missing": "Critical features are missing",
+            "Functionality Deterioration": "Functionality deterioration after APP updates",
+            "Lack of Updates": "Lack of updates for the APP"
+        }
+    },
+    "User Aspects": {
+        "User Experience and Interface": {
+            "Disruptive Behaviors": "Annoying or disruptive behavior causing negative user sentiment, such as sending notifications",
+            "Unfriendly User Interface": "Complex or unfriendly user interface"
+        },
+        "Comparison": {
+            "Comparison": "Comparison with other similar products"
+        },
+        "Customer Support": {
+            "Lack of Effective Customer Support": "Lack of timely response from customer support"
+        },
+        "Language": {
+            "Lack of Language Support": "The APP lacks support for multiple languages"
+        }
+    },
+    "Market Aspects": {
+        "Monetization and Pricing Concerns": {
+            "Subscription-based or Limited Free Use": "Limited free options, requires a subscription to use",
+            "Lack of Value for Money": "Overcharge, low value for high cost",
+            "Refund Issues": "For some reason the user requested a refund or had difficulty obtaining a refund"
+        },
+        "Propaganda and Advertisement": {
+            "Misleading Propaganda": "The actual functionality and free usage rights are inconsistent with what was promoted",
+            "Advertisements": "Intrusive or aggressive advertisements or pop-ups when use"
+        }
+    },
+    "LLM Aspects": {
+        "Inaccuracy, Inconsistency, and Repetitiveness": {
+            "Inaccuracy": "At the large language model level, the content generated is factually contradictory or fictitious",
+            "Inconsistency": "At the large language model level, the content generated is inconsistent with the prompt and context",
+            "Repetitiveness": "At the large language model level, the content generated is overly repetitive, or lacking diversity, rather than repetitive actions or behaviors of the app itself"
+        },
+        "Ethics, Censorship, and Bias": {
+            "Ethics": "At the large language model level, the content generated is inappropriate or unethical",
+            "Censorship": "Overly strict or lenient content moderation",
+            "Bias": "Regional, cultural, gender, political, or religious bias in LLM content"
+        },
+        "Performance": {
+            "Slow Performance": "The processing speed is slow and the waiting time is long"
+        },
+        "Privacy": {
+            "Privacy Concerns": "Data privacy risks such as collecting users' personal information, files on devices, and conversation information leaks"
+        }
+    }
+}

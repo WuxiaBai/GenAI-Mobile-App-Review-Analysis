@@ -1,0 +1,309 @@
+HDBSCAN聚类结果统计
+============================================================
+总数据点: 210
+聚类数量: 22
+噪声点数量: 99 (47.14%)
+最小簇大小参数: 3
+核心点最小邻居数: 1
+簇选择方法: leaf
+簇选择epsilon: 0.0
+============================================================
+
+Cluster 0:
+  主题: AI writing assistance
+  数量: 8
+  - Strong AI Integration for Food & Calorie Tracking
+  - Accurate prompt understanding and control
+  - Clear, step-by-step explanations
+  - AI Summarization
+  - AI writing assistance
+  - Versatile, General-Purpose Assistant
+  - Improved writing quality
+  - AI tutor / explanation features
+
+Cluster 1:
+  主题: Useful extra features
+  数量: 9
+  - Useful for social media content
+  - Comprehensive tracking functionality
+  - Unique, Innovative Concept
+  - Free core experience and generous usage
+  - Rich Feature Set & Versatility
+  - Community & Social Features
+  - Useful extra features
+  - Free features and affordability
+  - Versatility & All‑in‑One Functionality
+
+Cluster 2:
+  主题: Powerful customization & control
+  数量: 9
+  - Variety and creativity of styles/filters
+  - Large variety and quality of templates
+  - Variety of characters and customization
+  - Personalization and Memory
+  - Powerful Creation & Customization Tools
+  - Personalization and customization
+  - Rich editing capabilities
+  - Powerful Customization Options
+  - Powerful customization & control
+
+Cluster 3:
+  主题: Broad, Versatile Use Cases
+  数量: 5
+  - Strong overall usefulness for travel planning
+  - Context retention / memory
+  - Fun and creative use cases
+  - Versatility of use cases
+  - Broad, Versatile Use Cases
+
+Cluster 4:
+  主题: Productivity boost and time savings
+  数量: 6
+  - Great for Content Creators & Professional Use
+  - 24/7 availability and convenience
+  - Strong productivity and workflow support
+  - Productivity boost and time savings
+  - Productivity and professional use
+  - Time-Saving and Efficiency
+
+Cluster 5:
+  主题: Free access and relatively generous usage
+  数量: 10
+  - Easy, Flexible Expense Input
+  - Strong integration with Bible content
+  - Low or no censorship / filters
+  - Free, low‑friction access
+  - Free, unlimited chatting with no (or almost no) ads
+  - No Ads and Clean Experience
+  - Good value despite ads (for some users)
+  - Ad-free / low cost / free access
+  - Free usage
+  - Free access and relatively generous usage
+
+Cluster 6:
+  主题: High usefulness for learning and students
+  数量: 8
+  - Strong Educational and Study Support
+  - Effective speaking practice for language learning
+  - Strong support for learning and productivity
+  - Strong educational value
+  - High usefulness for learning and students
+  - Highly Helpful for Learning and Studying
+  - Great for Learning and Education
+  - Practical usefulness
+
+Cluster 7:
+  主题: Voice Chat as a Standout Feature
+  数量: 8
+  - High‑quality, realistic voice cloning
+  - Useful Text-to-Speech & Voice Conversion
+  - Group chat / multi‑bot features
+  - Personal-assistant-like experience
+  - Integration with AI / ChatGPT
+  - Voice Chat as a Standout Feature
+  - Voice chat / conversational experience
+  - Voice and audio features
+
+Cluster 8:
+  主题: Strong emotional and social value
+  数量: 9
+  - Additional perceived strengths
+  - Emotional/psychological benefit
+  - Strong recommendation to others
+  - Strong spiritual and emotional support
+  - Emotional and Mental Support
+  - Companionship and emotional support
+  - Strong emotional and social value
+  - Companion-Like, Emotional and Social Value
+  - Emotional impact
+
+Cluster 9:
+  主题: High Answer Quality and Breadth of Knowledge
+  数量: 4
+  - High Answer Quality and Breadth of Knowledge
+  - High Perceived Accuracy & Quality of Answers
+  - High answer quality accurate, detailed, and clear
+  - High perceived intelligence and breadth of knowledge
+
+Cluster 10:
+  主题: High-Quality Image Generation
+  数量: 9
+  - High image quality
+  - Strong photo editing capabilities
+  - High audio quality
+  - High-quality output
+  - Creative AI Content Generation
+  - Image and multimodal capabilities
+  - High-Quality Image Generation
+  - High-quality AI video generation
+  - AI image generation capability
+
+Cluster 11:
+  主题: AI quality
+  数量: 17
+  - Effective AI lyrics generation
+  - High-quality automatic captioning
+  - Broad target audience
+  - Valuable AI-driven dream interpretation
+  - High transcription accuracy
+  - High‑quality face swap and AI results
+  - Accurate and useful feedback
+  - Variety of AI characters
+  - High-quality, professional-looking results
+  - Innovative Use of AI
+  - High-Quality Responses
+  - Better than competing AI apps
+  - High‑quality AI responses
+  - Strong AI performance
+  - AI Capabilities
+  - AI quality
+  - Strong overall satisfaction with the AI
+
+Cluster 12:
+  主题: Realistic, engaging conversations
+  数量: 8
+  - Memory and continuity of conversation
+  - Realistic AI conversations
+  - High‑quality AI/chat experience
+  - Friendly, Human‑Like Interaction
+  - Realistic, engaging conversations
+  - Highly Engaging, “Human‑Like” Conversations
+  - Conversation quality
+  - Conversational, human‑like interaction
+
+Cluster 13:
+  主题: Positive Overall Experience
+  数量: 6
+  - Improved journaling experience
+  - Positive perception of developers
+  - Positive overall perception
+  - Positive Overall Experience
+  - Positive user experience
+  - Positive overall sentiment
+
+Cluster 14:
+  主题: Truly Free / Good Value
+  数量: 9
+  - Premium (Pro / GPT‑4) value
+  - Good Pricing & Value
+  - Good Free Tier & Fair Monetization (Current Model)
+  - Free Tier & Value
+  - Perceived value, even in free tier
+  - Truly usable for free / fair monetization
+  - Good free offering and perceived value
+  - Truly Free / Good Value
+  - Value for Money and Free Access
+
+Cluster 15:
+  主题: Perceived superiority vs. competitors
+  数量: 5
+  - Perceived Superiority Over Other AI and Search Tools
+  - Perceived Superiority vs. Alternatives
+  - Comparative advantage over competitors
+  - High overall quality vs. competitors
+  - Perceived superiority vs. competitors
+
+Cluster 16:
+  主题: Overall strong satisfaction with the app
+  数量: 3
+  - Overall positive impression of the app
+  - Overall strong satisfaction with the app
+  - Overall quality of the app
+
+Cluster 17:
+  主题: Fun and engaging / addictive experience
+  数量: 12
+  - Strong roleplay and storytelling capabilities
+  - Gamification & Rewards
+  - Motivational & Engagement Potential
+  - Community and discovery
+  - Appealing Visual Style
+  - Engagement and Enjoyment
+  - Addictive entertainment and time‑killing value
+  - Overall enjoyment and fun factor
+  - Fun and entertainment value
+  - Fun and engaging / addictive experience
+  - Engaging, enjoyable user experience
+  - Fun and engaging experience
+
+Cluster 18:
+  主题: Responsiveness and ongoing improvements
+  数量: 11
+  - Effective Notification System
+  - Effective multilingual support
+  - Core functionality is working well
+  - Continuous improvement and useful updates
+  - Active development and responsive team
+  - Continuous Improvement & Responsiveness
+  - Speed and responsiveness
+  - Responsiveness and ongoing improvements
+  - Customer Support & Responsiveness
+  - Developer Responsiveness and Improvements
+  - Support and developer responsiveness
+
+Cluster 19:
+  主题: Ease of use / User-friendly interface
+  数量: 21
+  - Offline Functionality
+  - Coding and Technical Support
+  - Ease of use and good onboarding
+  - Multilingual and accessibility strengths
+  - Ease of use / simple workflow
+  - Ease of use and editing
+  - Accessibility and Ease of Use
+  - Accessibility and Value
+  - Good usability and design
+  - Ease of use & beginner‑friendly
+  - User experience and interface
+  - Good UI/UX and design
+  - User-friendly design and experience
+  - Ease of use and simplicity
+  - Ease of Use and Convenience
+  - Ease of use / User-friendly design
+  - Ease of Use and Good UX
+  - Ease of use and user experience
+  - Ease of Use and Simple Interface
+  - User-friendly interface
+  - Ease of use / User-friendly interface
+
+Cluster 20:
+  主题: Overall satisfaction / high perceived quality
+  数量: 14
+  - Multilingual and Global Appeal
+  - Strong brand perception and satisfaction
+  - Perceived innovation
+  - Long‑Term Satisfaction and Loyalty
+  - Perceived value and pricing
+  - Willingness to Pay / Perceived Value
+  - User Satisfaction & Emotional Impact
+  - High user satisfaction and strong recommendation
+  - Strong overall satisfaction and recommendation
+  - Perceived Value & Overall Satisfaction
+  - Overall user satisfaction
+  - Strong overall satisfaction and enjoyment
+  - Overall satisfaction / high perceived quality
+  - Overall satisfaction / quality
+
+Cluster 21:
+  主题: Reliability and performance
+  数量: 19
+  - Minor Limitations Acknowledged but Accepted
+  - Memory and continuity (better than many competitors)
+  - Cross-platform availability and integrations
+  - Reliability vs. Competitors
+  - Support, Reliability & Continuous Improvement
+  - Safety and ethics
+  - Reliability and trust
+  - High perceived intelligence and reliability
+  - Speed and ease of use
+  - Fast, smooth performance
+  - Performance and Speed
+  - High Reliability and Consistency
+  - High-quality customer support
+  - Perceived Reliability
+  - Stability and Reliability
+  - Reliability, Speed, and Ease of Use
+  - Reliability and performance
+  - Reliability and Overall Satisfaction
+  - Reliability and Long-Term Satisfaction
+

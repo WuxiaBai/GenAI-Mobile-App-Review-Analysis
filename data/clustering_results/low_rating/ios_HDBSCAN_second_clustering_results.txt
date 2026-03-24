@@ -1,0 +1,194 @@
+HDBSCAN聚类结果统计
+============================================================
+总数据点: 147
+聚类数量: 9
+噪声点数量: 73 (49.66%)
+最小簇大小参数: 5
+核心点最小邻居数: 3
+簇选择方法: leaf
+簇选择epsilon: 0.0
+============================================================
+
+Cluster 0:
+  主题: Image generation/editing problems
+  数量: 6
+  - File export / sandbox and PDF issues
+  - Image & File Handling Limitations
+  - Image generation stricter policies, poor quality, and harsh limits
+  - Image generation and editing limitations
+  - Image generation/editing problems
+  - Image and media generation/editing problems
+
+Cluster 1:
+  主题: Limits, Paywalls, and Pricing Frustrations
+  数量: 11
+  - Intrusive, high‑frequency ads (primary complaint)
+  - Pricing, value, and regional fairness
+  - Pricing and Value Perception
+  - Aggressive limits, upsell pressure, and pricing
+  - Aggressive limits, upsell pressure, and perceived “paywalling”
+  - Aggressive monetization and paywalls
+  - Limits, quotas, and monetization
+  - Aggressive monetization and limits
+  - Usage limits and throttling frustration
+  - Limits, quotas, and perceived paywall pressure
+  - Limits, Paywalls, and Pricing Frustrations
+
+Cluster 2:
+  主题: Memory, continuity, and long‑form work failures
+  数量: 23
+  - Inconsistent Behavior, Over‑Questioning, and Style Issues
+  - “Thinking Longer for a Better Answer” / Reasoning Mode Problems
+  - “Thinking Longer” / Auto Reasoning Mode
+  - Loss of Personality, Warmth, and Continuity
+  - Creative & Emotional Use Cases Degraded
+  - Bugs and data loss in chat experience
+  - Localization and language issues
+  - Outdated Knowledge Cutoff / No Real‑Time Data
+  - Forced model routing and loss of user control
+  - Task execution failures, loops, and stalling behavior
+  - Memory, continuity, and personalization failures
+  - Memory, continuity, and long‑form work failures
+  - Memory, context, and long‑form / project work
+  - Performance, Reliability, and Network Errors
+  - Conversation limits, memory, and reliability
+  - Instruction‑following, memory, and context problems
+  - Memory, continuity, and context problems
+  - Data loss, memory failures, and continuity problems
+  - iPad / iOS app won’t open or crashes (major, widespread)
+  - Severe reliability, performance, and UX problems
+  - Performance and Reliability Issues
+  - Reliability, bugs, and performance problems
+  - Bugs, instability, and performance issues
+
+Cluster 3:
+  主题: Model quality regressions, hallucinations, and inconsistency
+  数量: 21
+  - Heavy, unwanted AI focus and ethical concerns
+  - Inconsistent, unreliable answers
+  - Model/version confusion & perceived deception
+  - Model switching, limits, and perceived bait‑and‑switch
+  - Perception of scam / fraudulent behavior
+  - Model switching and lack of transparency
+  - Forced model switching and loss of model choice
+  - Forced Model Routing & Loss of Model Choice
+  - Model quality regressions, hallucinations, and inconsistency
+  - AI Quality Issues
+  - Perceived degradation of AI quality over time
+  - Perception of declining quality over time
+  - Hallucinations, dishonesty, and refusal to admit uncertainty
+  - Inaccuracies, hallucinations, and inconsistency
+  - Accuracy, Hallucinations, and Reliability
+  - Model Quality, Accuracy, and “Degradation”
+  - Model quality has declined (especially GPT‑5 vs earlier models)
+  - Model Quality Regressions (GPT‑5 vs GPT‑4o)
+  - Model regression GPT‑5 perceived as worse than GPT‑4 / 4o
+  - Perceived model “downgrade” (GPT‑5 vs GPT‑4/4o)
+  - Perceived downgrade in quality, intelligence, and personality (especially GPT‑5)
+
+Cluster 4:
+  主题: Feature Gaps and UX Frustrations
+  数量: 22
+  - Onboarding and discoverability problems
+  - User experience with tone and interaction style
+  - AI Capability Gaps vs. Expectations
+  - Feature Limitations and Access Restrictions
+  - Hard technical failures around AIGC features
+  - Unwanted, frequent UI/UX changes
+  - Expectation vs Reality / Marketing Mismatch
+  - Voice Mode & Accessibility Bugs
+  - Outdated or limited knowledge
+  - UX / UI regressions and accessibility problems
+  - UI/UX design frustrations
+  - UI/UX design issues
+  - Comparisons to competitors
+  - Missing or Broken Specific Features
+  - iPad and UI/UX problems
+  - Feature Gaps and UX Frustrations
+  - Missing or weaker features vs. web version
+  - Feature Gaps vs. Expectations
+  - Feature gaps vs web version / expectations
+  - Feature gaps vs web and competitors
+  - App stability, performance, and UX bugs
+  - Severe iPad / iOS app bugs and instability
+
+Cluster 5:
+  主题: Feature removals / silent downgrades
+  数量: 9
+  - Unannounced, unstable product changes and lack of transparency
+  - Voice features and personality changes
+  - Voice mode regressions
+  - Voice mode and speech issues
+  - Feature removals and regressions
+  - Feature removals and poor communication
+  - Feature removals and silent policy changes
+  - Feature removals / downgrades
+  - Feature removals / silent downgrades
+
+Cluster 6:
+  主题: Safety, censorship, and bias
+  数量: 22
+  - Removal / moderation of popular characters and user‑created bots
+  - General Sentiment
+  - Overly aggressive NSFW / safety filter
+  - Content, policy, and age‑restriction issues
+  - Bias, tone, and personality issues
+  - Environmental / ethical backlash
+  - Over‑aggressive, inconsistent safety filters
+  - Over‑aggressive and opaque safety / moderation
+  - Guardrails, Safety, and Censorship
+  - Over‑restrictive Safety / Guardrails
+  - Bias, politics, and perceived agenda
+  - Perceived political/ideological bias
+  - Content Moderation, Politics, and Perceived Bias
+  - Over‑censorship, safety filters, and “infantilizing” behavior
+  - Bias, censorship, and political / cultural concerns
+  - Content Restrictions, Safety Filters & Bias
+  - Over‑aggressive safety / censorship, especially for adults and creatives
+  - Over‑Censorship and Overly Aggressive Safety Filters
+  - Safety, censorship, and bias
+  - Safety filters, bias, and censorship concerns
+  - Over‑aggressive safety / censorship
+  - Over‑aggressive safety / censorship and “safety routing”
+
+Cluster 7:
+  主题: Trust, privacy, and ethics concerns
+  数量: 18
+  - Emotional and companionship use cases broken
+  - Reliability, accuracy, and trust issues
+  - Privacy, ID verification, and trust concerns
+  - Support, transparency, and communication gaps
+  - Support and communication
+  - Ethical, Safety, and Societal Concerns
+  - Privacy, safety, and ethics concerns
+  - Ethical and environmental concerns
+  - Ethical and Environmental Objections
+  - Trust, Safety, and Bias Concerns
+  - Support, transparency, and trust issues
+  - Trust, Transparency, and Communication Failures
+  - Privacy, data, and policy concerns
+  - Privacy and data‑use concerns
+  - Trust, safety, and ethics concerns
+  - Trust, privacy, and ethics concerns
+  - Data, privacy, and trust concerns
+  - Trust, privacy, and data handling concerns
+
+Cluster 8:
+  主题: Subscription, billing, and account issues
+  数量: 15
+  - Battery Drain & Overheating
+  - Miscellaneous specific issues
+  - Account, access, and region issues
+  - Login, authentication, and account issues
+  - Account creation, login, and phone verification problems
+  - Subscription, pricing, and value concerns
+  - Customer support and communication issues
+  - Communication & Support Failures
+  - Subscription, billing, and entitlement problems
+  - Billing, Subscription, and Refund Issues
+  - Customer support and account/billing issues
+  - Support, billing, and account issues
+  - Subscription / Billing / Account Recognition Problems
+  - Subscription, billing, and account issues
+  - Subscription, billing, and account problems
+

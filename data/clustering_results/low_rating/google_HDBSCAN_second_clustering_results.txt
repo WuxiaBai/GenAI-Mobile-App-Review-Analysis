@@ -1,0 +1,656 @@
+HDBSCAN聚类结果统计
+============================================================
+总数据点: 577
+聚类数量: 17
+噪声点数量: 344 (59.62%)
+最小簇大小参数: 5
+核心点最小邻居数: 3
+簇选择方法: leaf
+簇选择epsilon: 0.0
+============================================================
+
+Cluster 0:
+  主题: Language quality & localization issues
+  数量: 7
+  - Content and language coverage gaps
+  - Limited content and character variety
+  - Translation quality issues
+  - Localization and Language Quality
+  - Language quality & localization issues
+  - Language Support and Localization Issues
+  - Language and localization issues
+
+Cluster 1:
+  主题: Feature removal and regressions after updates
+  数量: 16
+  - Frustration leading to potential uninstalls
+  - Resulting action uninstalling the app
+  - Immediate churn / uninstall
+  - Misleading claims about GPT‑4 / model version
+  - Regression from previously good experience
+  - Regression from Earlier Versions
+  - Feature regression vs. older versions
+  - Content removals and character moderation
+  - Feature regressions and product direction changes
+  - UI/UX Regressions After Updates
+  - Regressions after updates
+  - Feature Removal / Downgrades After Updates
+  - Feature removals / regressions
+  - Feature removal and regressions after updates
+  - Feature Removals / Changes
+  - Removal or degradation of previously available features
+
+Cluster 2:
+  主题: AI quality issues
+  数量: 73
+  - AI / “Gemini” Integration Concerns
+  - Astrology accuracy and quality concerns
+  - Face accuracy and consistency problems
+  - Bias and representation issues
+  - Perceived Racial Bias in AI Outputs
+  - Very poor transcription quality
+  - Misleading / Overstated “AI” Branding
+  - Voice generation and cloning quality issues
+  - Poor Prompt Adherence / Output Quality
+  - Poor story quality / creativity
+  - AI‑driven moderation feels unfair, opaque, and over‑aggressive
+  - Image Quality and Prompt Adherence
+  - Audio Quality Issues
+  - Voice Quality and Accuracy Problems
+  - Poor AI Voice Quality
+  - Low answer quality and accuracy
+  - AI features perceived as unwanted or harmful
+  - Negative sentiment toward AI in general
+  - AI behavior / personality issues
+  - Poor chat/AI quality
+  - Poor “AI” / Chat Experience
+  - Poor AI quality and conversation experience
+  - Poor Conversation Quality & AI Behavior
+  - Mixed but overall negative sentiment
+  - Poor conversation memory / context handling
+  - Poor conversational quality and memory
+  - AI integration technical issues
+  - AI Usage and Ethical Concerns
+  - Ethical Objections to AI Art
+  - Repetitive / Low-Quality Responses
+  - Over-reliance on AI-generated content
+  - Image Quality Issues
+  - Image and video generation issues
+  - Image Generation Issues
+  - Poor AI image quality / performance
+  - Image Generation Quality
+  - Perception that it’s “not real AI”
+  - AI and Pedagogical Quality Issues
+  - Dissatisfaction with the AI itself
+  - Expectation vs reality of “AI”
+  - Model Quality & Behavior
+  - AI features not working or unreliable
+  - Misleading or missing AI features
+  - Misleading “AI” Claim
+  - AI quality, coherence, and memory problems
+  - Core AI quality is poor
+  - Quality of AI responses
+  - Low-quality / limited AI responses
+  - AI memory and consistency problems
+  - AI quality and memory issues
+  - Degraded AI quality and memory
+  - AI quality, memory, and behavior degradation
+  - AI Quality Degradation
+  - AI Quality & Capabilities
+  - AI Quality and Prompt Adherence
+  - AI accuracy and quality issues
+  - Overall dissatisfaction with AI quality
+  - Poor AI quality / inaccurate results
+  - Quality & Reliability of AI Output
+  - AI quality issues
+  - Perceived low quality of the AI
+  - Quality of AI output
+  - Perceived low quality of AI output
+  - AI Quality and Reliability Issues
+  - Poor AI quality/performance
+  - AI Behavior / Quality Issues
+  - AI Quality & Behavior
+  - Poor AI Output Quality
+  - Quality issues with AI output
+  - Poor overall output quality
+  - Poor output quality / Irrelevant results
+  - Overall perception of low quality
+  - Perceived Low-Quality Content
+
+Cluster 3:
+  主题: Intrusive and Excessive Ads
+  数量: 21
+  - Aggressive / Intrusive Rating Prompts
+  - Ad system and rewards not working properly
+  - Over‑restriction, Safety Friction, and Perceived Bias
+  - Message limits and “pay or watch ads to continue chatting”
+  - Strong negative recommendation
+  - Overly Strict, Inconsistent, and Disruptive Safety Filters
+  - Emotional Frustration
+  - General user sentiment
+  - Over‑strict NSFW / violence filter
+  - Overly strict / intrusive filters and moderation
+  - Over‑aggressive / frustrating content filter
+  - Ads Frequency, Intrusiveness, and Technical Problems
+  - Ads and User Experience
+  - Over‑aggressive, Inconsistent Safety / NSFW Filtering
+  - Ads overload and poor ad experience
+  - Intrusive, Excessive, and Buggy Ads
+  - Excessive and Aggressive Advertising
+  - Intrusive and Excessive Ads
+  - Intrusive, Broken, and Excessive Ads
+  - Excessive, intrusive advertising
+  - Excessive and Disruptive Ads
+
+Cluster 4:
+  主题: Feature limitations and missing functionality
+  数量: 43
+  - Song Length & Continuation Features
+  - Integration & Ecosystem Issues
+  - User churn to a competitor
+  - Text input limitation
+  - Time limits / forced “breaks”
+  - Platform feature disparity (Android vs iOS)
+  - Lack of differentiation / uniqueness
+  - Mobile app is weaker than the mobile web / desktop experience
+  - Feature limitations / UX friction
+  - Watermarks and Output Limitations
+  - Lack of Offline Functionality
+  - Model version misrepresentation / confusion
+  - Knowledge cutoff and lack of up‑to‑date information
+  - Missing, removed, or unreliable voice features
+  - Feature Availability / Inconsistent Rollout
+  - Chat length limits and lack of memory
+  - Missing key features
+  - Technical and Functional Limitations
+  - Limited Free Features / Usage
+  - Comparisons to Better Alternatives
+  - Missing or Inferior Features vs Web Version
+  - Overly strict and inconsistent content filters
+  - Feature Limitations vs. Expectations
+  - Feature gaps and broken functionality
+  - Feature Gaps & Miscellaneous Requests
+  - Miscellaneous UX & Feature Requests
+  - Limited Features and Options
+  - Content/Feature Gaps
+  - Platform and Feature Inconsistencies
+  - Missing or Limited Core Features
+  - Feature Gaps vs. Expectations
+  - Feature Gaps vs. Marketing / Expectations
+  - Feature gaps vs. competitors
+  - Feature gaps vs the web version
+  - Feature gaps and UX issues
+  - Feature Gaps and Limitations
+  - Feature Gaps vs Web / Competitors
+  - Feature gaps vs. web version and competitors
+  - Missing or Misleading Features
+  - Feature limitations and missing functionality
+  - Missing Features
+  - Feature limitations and UX issues
+  - Feature limitations and usability
+
+Cluster 5:
+  主题: Misleading Marketing / Expectations
+  数量: 32
+  - Content tone and target audience mismatch
+  - Mixed but ultimately negative overall impression
+  - Expectation vs. Reality Compared to ChatGPT
+  - Misleading Branding / “Fake ChatGPT” Concerns
+  - Limited Capabilities vs Expectations
+  - Incorrect and unreliable answers
+  - Bias, Political/Religious Perception
+  - Overall dissatisfaction and negative recommendation
+  - Misalignment between marketing and reality
+  - Expectation vs. reality / comparisons to competitors
+  - General dissatisfaction and expectations
+  - Expectation vs reality gap
+  - Expectation Mismatch
+  - Misleading value proposition / user expectations
+  - Broken expectations and trust
+  - Expectation vs Reality / Trust Erosion
+  - Feature Mismatch & Misleading Expectations
+  - Misrepresentation and Brand Confusion
+  - Misleading branding / authenticity concerns
+  - Bias and content concerns
+  - Misleading Expectations vs. Actual Functionality
+  - Misleading marketing and trust issues
+  - Perceived Deceptive / Misleading Behavior
+  - Expectation vs reality
+  - Misleading Marketing / Model Claims
+  - Expectation vs Reality / Marketing Mismatch
+  - Misleading Marketing / Expectations
+  - Expectation vs. Reality / Misleading Marketing
+  - Misleading advertising / false expectations
+  - Misleading advertising / expectations mismatch
+  - Misleading advertising / deceptive marketing
+  - Misleading / False Advertising
+
+Cluster 6:
+  主题: Perceived poor value vs. competitors
+  数量: 37
+  - Conditional Willingness to Revise Rating
+  - Positive Notes (but overshadowed by issues)
+  - Unclear purpose and value of the app
+  - Impact on Rating
+  - Ethical and Branding Concerns
+  - General dissatisfaction with app quality
+  - Overall negative sentiment
+  - Perceived decline over time
+  - High and confusing pricing
+  - Overall quality vs competitors
+  - Negative comparison with competitors
+  - Comparison with competitors
+  - Perceived poor value vs. competitors
+  - Poor value vs. competitors
+  - Value Perception vs. Competitors
+  - Value vs Competitors
+  - Perception of greed / poor value
+  - Overall dissatisfaction and low perceived value
+  - Perceived Decline in Quality Over Time
+  - Perceived Degradation of Quality Over Time
+  - Perceived Overpricing / Poor Value
+  - Poor Value for Money / Subscription Dissatisfaction
+  - Poor value for money / Pricing concerns
+  - Overall Perception of Value
+  - Value Perception vs Alternatives
+  - Perceived low value compared to alternatives
+  - Poor value compared to free alternatives
+  - Perceived Poor Value / Wasted Money
+  - Perceived poor value for money
+  - Perceived lack of value / usefulness
+  - Perception of Overall Uselessness
+  - Pricing and Value Perception
+  - Perceived excessive pricing / poor value
+  - High Pricing / Poor Value
+  - Value for Money and Pricing
+  - Pricing and value concerns
+  - Pricing vs. Value
+
+Cluster 7:
+  主题: Perception of “Scam” and Lack of Trust
+  数量: 16
+  - Accuracy and Hallucinations
+  - Fake profiles, bots, and AI-generated content
+  - Overall loss of trust and intent to churn
+  - Perception of cloning / lack of originality
+  - Perception of the App as Fake or Useless
+  - Strong negative sentiment and loss of trust
+  - Suspicion of fake or AI-generated positive reviews
+  - Perception of fake or manipulated reviews
+  - General dissatisfaction and trust erosion
+  - Perception of dishonesty and loss of trust
+  - Money, Pricing, and Perceived “Scam” Behavior
+  - Perception of “Scam” and Lack of Trust
+  - Perceived Scam / Misleading Monetization
+  - Perception of Scam/Fraud
+  - Perception of Scam / Dishonesty
+  - Perceived unfair monetization
+
+Cluster 8:
+  主题: Privacy and trust concerns
+  数量: 71
+  - Ethical and Existential Concerns
+  - Incorrect / Outdated / Unreliable Information
+  - Developer Communication and Trust
+  - Ethical and Artistic Concerns
+  - Data loss / Reliability
+  - Account, Onboarding, and Data Concerns
+  - Outdated Knowledge & Limited Web Access
+  - Outdated Knowledge / No Real-Time Information
+  - User Experience & Trust Issues
+  - Overall trust and satisfaction
+  - Emotional frustration and trust issues
+  - Age‑appropriateness and content concerns
+  - Customer support and trust issues
+  - Trust and Support Issues
+  - Ethical / Emotional Concerns
+  - Ethical / Philosophical Objections
+  - Age verification and under‑18 restrictions
+  - Age Verification and Privacy Concerns
+  - Account and privacy concerns
+  - Trust and user sentiment
+  - Policy / content moderation issues
+  - Trust and reliability concerns
+  - Trust and authenticity concerns
+  - Trust and Credibility Concerns
+  - Trust and Brand Perception
+  - Reputation and trust damage
+  - Privacy and data-collection concerns
+  - NSFW / Adult Content Concerns
+  - Policy, safety, and bias complaints
+  - Content Policy, Bias & Safety Complaints
+  - Over‑Restrictive Safety / Content Filters
+  - Content restrictions, bias, and safety controls
+  - Moderation and Safety Issues
+  - NSFW and Content Restrictions
+  - Content & Ethical Concerns
+  - Trust & Value Perception
+  - Content quality and safety
+  - Content safety and moderation issues
+  - Bias, Safety, and Content Moderation Complaints
+  - Trust and communication issues
+  - Overly strict content moderation
+  - Content, safety, and ethics concerns
+  - Content & Safety Concerns
+  - Content Safety & Appropriateness
+  - Safety and Ethical Concerns
+  - Safety, ethics, and psychological concerns
+  - NSFW / content moderation & censorship
+  - Trust and transparency issues
+  - Over‑aggressive censorship / filtering
+  - Censorship / content moderation issues
+  - Censorship, Safety Filters, and “Bias”
+  - Over‑Restrictive Safety & Censorship
+  - Data & Trust Concerns
+  - Trust and Reputation Concerns
+  - Privacy and Permission Concerns
+  - Trust, Privacy, and Data Concerns
+  - Security and privacy concerns
+  - Ethical and trust concerns
+  - Content restrictions / censorship
+  - Content Policies, Bias, and Censorship
+  - Privacy and Safety Concerns
+  - Trust and Safety Concerns
+  - Trust, Safety, and Ethics Concerns
+  - Privacy and ethics concerns
+  - Trust and Security Concerns
+  - Data handling / privacy concern
+  - Trust, Privacy, and Ethical Concerns
+  - Privacy and Data Use Concerns
+  - Privacy and Data Concerns
+  - Privacy and trust concerns
+  - Privacy, security, and trust concerns
+
+Cluster 9:
+  主题: Poor customer support / communication
+  数量: 35
+  - Perception of Abandonment / Lack of Maintenance
+  - Notification-related problems
+  - Forced / Premature Review Requests
+  - Payment / Delivery Failures
+  - Conversation Limits & “Worn Out” Behavior
+  - Misleading “free chat” experience
+  - Lack of in-app support/help
+  - Comparisons to ChatGPT and others
+  - Overall Negative Experience
+  - Miscellaneous specific complaints
+  - Poor Trial / Onboarding Experience
+  - Expectation management and communication issues
+  - Support responsiveness / effectiveness
+  - Poor response quality
+  - Poor Customer Support & Use of AI for Support
+  - Poor Reliability / Service Outages
+  - Loss of chat history / data loss
+  - Lack of Transparency/Communication
+  - Forced “chat limit” / “take a break” system
+  - Misleading “Free” / Trial Experience
+  - Service Quality & Reliability
+  - Lack of support/communication
+  - Developer communication and support tone
+  - Support & Communication Issues
+  - Support and Communication
+  - Refund and customer support issues
+  - Refund and customer support frustrations
+  - Customer Support / Responsiveness
+  - Poor or non-existent customer support
+  - Unresponsive customer support
+  - Customer Support Issues
+  - Poor customer support / lack of response
+  - Customer Support and Communication Issues
+  - Poor customer support / communication
+  - Poor customer support experience
+
+Cluster 10:
+  主题: Billing, subscription, and account issues
+  数量: 25
+  - App stops working after payment
+  - GPT‑4 / Plus Subscription Problems
+  - Loss of data and account content
+  - Subscription / Usage Limit Frustration
+  - Paid Features Not Working as Expected
+  - Access, Availability & Regional Issues
+  - Misleading / Aggressive Subscription Model
+  - Trust and billing issues
+  - Billing and unauthorized charges
+  - Pricing and subscription model
+  - Account, billing, and support problems
+  - Refund, cancellation, and billing problems
+  - Billing, subscription, and cancellation issues
+  - Cancellation and subscription management problems
+  - Subscription and Account Management
+  - Login, Signup, and Subscription Management Problems
+  - Subscription, Billing, and Access Problems
+  - Subscription, Billing, and Refund Issues
+  - Billing, refunds, and subscriptions
+  - Account, Subscription & Support Issues
+  - Subscription, Billing & Account Management Issues
+  - Subscription/payment problems
+  - Billing, subscription, and account issues
+  - Subscription and Billing Issues
+  - Billing / Subscription Problems
+
+Cluster 11:
+  主题: Account / Login / Access Problems
+  数量: 18
+  - Image upload issues
+  - Model Switching & GPT‑4 Access Problems
+  - Mandatory Account / Sign‑in Requirement
+  - Account Bans / Restrictions and Poor Support
+  - Onboarding / Sign‑up Problems
+  - Account / Profile Management Issues
+  - Chat History and Sync Issues
+  - Account, Access, and Region Issues
+  - Connectivity / Server Errors
+  - Access & Functionality Problems
+  - Account / Verification Issues
+  - Account and access issues
+  - Account / login problems
+  - Login, Signup, and Account Issues
+  - Login / signup / account access problems
+  - Login/Access Problems
+  - Account, Login, and Access Issues
+  - Account / Login / Access Problems
+
+Cluster 12:
+  主题: User experience and interface issues
+  数量: 47
+  - Lack of dark mode
+  - Inability to Edit Photos as Expected
+  - Learning curve / usability
+  - Roleplay & Narrative Control Problems
+  - Lack of desired voice options
+  - Search functionality issues
+  - Poor Personalization and Memory
+  - Poor onboarding / lack of guidance
+  - Onboarding and usability issues
+  - User experience and onboarding problems
+  - Navigation & UI/UX Issues
+  - Poor usability / navigation problems
+  - Confusing, worsening UX and UI changes
+  - Voice and audio issues
+  - Frustration with Developer Response
+  - Memory, Context & Conversation Quality
+  - Usability / accessibility issues
+  - Image Generation & DALL·E Issues
+  - Overall frustration and sense of wasted time
+  - User experience and design
+  - Content and functionality limitations
+  - Lack of customization control
+  - UI/UX and Usability Regressions
+  - UI/UX and design complaints
+  - Lack of Editing / Control
+  - Miscellaneous UX / Functional Issues
+  - Technical and UX Issues
+  - UI/UX and performance issues
+  - Editing & Usability Limitations
+  - App Functionality & UX Problems
+  - Performance and usability issues
+  - Severe stability and usability problems
+  - UI/UX design issues
+  - Technical / Usability Problems
+  - Usability and UX frustrations
+  - Poor User Experience / Usability
+  - User experience frustrations
+  - Design and UX frustrations
+  - Poor UI/UX design
+  - User experience and interface issues
+  - User experience and usability issues
+  - UI/UX and Interaction Frustrations
+  - User interface and usability problems
+  - UI/UX and usability problems
+  - Usability / UX Issues
+  - Technical Bugs & UI/UX Problems
+  - Content & Quality Issues
+
+Cluster 13:
+  主题: Core functionality broken or unreliable
+  数量: 17
+  - Sync & Cross‑Platform Issues
+  - Missing or Weak Core Messaging Features
+  - Search and Discovery Issues
+  - Issue persists despite troubleshooting
+  - Core AIGC features not working or unreliable
+  - Chat feature not functioning
+  - Core Features Locked Behind Paywall
+  - Editing & Core Functionality Failures
+  - Core AI feature not functioning
+  - Functional / Technical Problems
+  - App crashes / instability
+  - Core feature not functioning at all
+  - Core Functionality Problems / Bugs
+  - Core functionality broken or unreliable
+  - Core functionality failures
+  - Core functionality not working at all
+  - Functionality failures / Technical issues
+
+Cluster 14:
+  主题: Bugs, Stability, and Performance Issues
+  数量: 61
+  - Camera / scanning functionality problems
+  - Download and storage problems
+  - Mixed Positive Feedback
+  - Memory problems and story inconsistency
+  - Image & File Handling Problems
+  - Inferior performance vs. competitor (ChatGPT)
+  - Severe bugs and instability in chat
+  - Extremely slow, unreliable generation
+  - Technical issues with connectivity and performance
+  - Saving/export problems
+  - Speech Recognition / Microphone Issues
+  - Memory and continuity issues
+  - Device / Platform‑Specific Issues
+  - Bugs, Performance & UI/UX Regressions
+  - Lack of error feedback or guidance
+  - Poor memory and context handling
+  - Model Quality and Outdated Feel
+  - Performance and Speed
+  - Bugs and functional issues
+  - Performance, Stability, and Sync Issues
+  - Performance, Stability & UX Problems
+  - Slow Performance / Loading Issues
+  - Bugs, Lag, and Performance Issues
+  - App stability and technical issues
+  - Core Functionality & Reliability Problems
+  - App instability and serious bugs
+  - App stability and performance issues
+  - Performance and responsiveness issues
+  - Technical issues and performance
+  - Technical & Performance Problems
+  - Performance Issues
+  - Slow Performance / Long Processing Time
+  - Speed and Performance Issues
+  - Performance problems (lag, freezing, crashes)
+  - Performance issues and lag
+  - Performance, reliability, and server issues
+  - Performance and stability
+  - Performance, Stability, and Reliability Issues
+  - Severe stability and performance problems
+  - Stability and Performance Issues
+  - Stability & Performance Problems
+  - Technical issues and stability
+  - Technical Stability and Performance Issues
+  - Stability and reliability issues
+  - Reliability and Stability
+  - Performance and Reliability Issues
+  - Functionality / Reliability issues
+  - Technical Reliability & Performance Problems
+  - Technical and reliability issues
+  - Technical Issues and Bugs
+  - Bugs and technical glitches
+  - Reliability, Performance & Technical Bugs
+  - Bugs / Reliability Issues
+  - Crashes, Bugs, and Performance Problems
+  - Bugs, glitches & performance
+  - Bugs and performance issues
+  - Crashes, bugs, and instability
+  - Severe technical instability and bugs
+  - Technical bugs and stability issues
+  - Bugs, Stability, and Performance Issues
+  - Bugs, performance, and stability
+
+Cluster 15:
+  主题: Aggressive Monetization / Limited Free Use
+  数量: 32
+  - Mixed but minor positive note
+  - Insufficient free rewards and worsening economy
+  - Aggressive Promotion of Other Apps/Services
+  - Rate Limits, Caps, and Usage Restrictions
+  - Lack of differentiation from free alternatives
+  - Watermarks and Limitations in Free/Paid Use
+  - Watermark and Branding
+  - Monetization and gem system problems
+  - Aggressive upselling and ads
+  - Monetization / Coins System
+  - Usage Limits Even for Paying Users
+  - Severe usage limits
+  - Overly Limited Free Tier
+  - Lack of a genuine free trial
+  - Extremely limited free usage
+  - Comparison to Free Alternatives
+  - Aggressive Monetization / “Cash Grab” Perception
+  - Aggressive Monetization / Pay-to-Win
+  - Aggressive Monetization / Misleading “Free” Claims
+  - Perception of monetization / value
+  - Monetization / Pricing Frustration
+  - Aggressive monetization / misleading “free” experience
+  - Aggressive Monetization / Limited Free Use
+  - Monetization and Ads
+  - Aggressive Monetization / Poor Value
+  - Monetization / value for money concerns
+  - Aggressive monetization and ads
+  - Ads and monetization frustrations
+  - Aggressive and confusing monetization
+  - Aggressive monetization and usage limits
+  - Aggressive monetization & pricing
+  - Pricing and Monetization Concerns
+
+Cluster 16:
+  主题: Aggressive, Confusing Monetization / Paywalls
+  数量: 26
+  - New chat limits / paywall for basic usage
+  - Aggressive paywalls, confusing pricing, and perceived “scammy” behavior
+  - Pay-to-chat / Aggressive Monetization
+  - Monetization / credit system frustration
+  - Perception of Paywalls, Pricing, and Greed
+  - Paywall on the core functionality
+  - Misleading “free” claims / Paywall concerns
+  - Paywall and Subscription Frustrations
+  - Overly restrictive free tier / aggressive paywall
+  - Perceived paywalling and “greedy” monetization
+  - Aggressive Limits, Paywalls, and Pricing
+  - Aggressive paywall / misleading “free” experience
+  - Aggressive Paywalls & Loss of Free Features
+  - Overly aggressive paywall / limited free use
+  - Paywall / No Free Trial
+  - Pricing Model & Paywall Frustration
+  - Pricing, Monetization & “Paywall” Complaints
+  - Paywall and monetization complaints
+  - Paywall, Pricing, and Value Concerns
+  - Paywall, Pricing, and Value for Money
+  - Monetization, paywalls & pricing
+  - Monetization and paywall concerns
+  - Monetization / Paywall Frustrations
+  - Aggressive, Confusing Monetization / Paywalls
+  - Overly aggressive monetization & paywalls
+  - Aggressive monetization / paywalls
+
