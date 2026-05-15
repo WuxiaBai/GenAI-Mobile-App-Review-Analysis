@@ -1,23 +1,38 @@
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Pattern
 import pandas as pd
 import re
 
 
 def load_keywords(keyword_csv: Path) -> List[str]:
     keywords_df = pd.read_csv(keyword_csv)
-    return keywords_df.iloc[:, 0].dropna().astype(str).tolist()
+    keywords = keywords_df.iloc[:, 0].dropna().astype(str).str.strip().tolist()
+    return [keyword for keyword in keywords if keyword]
 
 
-def contains_any_keyword(text: str, keywords: List[str]) -> bool:
-    return any(re.search(rf"\b{re.escape(keyword)}\b", text, re.IGNORECASE) for keyword in keywords)
+def build_keyword_pattern(keyword: str) -> Pattern[str]:
+    if keyword.endswith("*"):
+        prefix = keyword[:-1].strip()
+        return re.compile(rf"(?<!\w){re.escape(prefix)}\w*(?!\w)", re.IGNORECASE)
+    return re.compile(rf"(?<!\w){re.escape(keyword)}(?!\w)", re.IGNORECASE)
 
 
-def collect_keyword_occurrences(text: str, keywords: List[str], stats: Dict[str, int]) -> None:
-    for keyword in keywords:
-        pattern = rf"\b{re.escape(keyword)}\b"
-        stats[keyword] += len(re.findall(pattern, text, re.IGNORECASE))
+def build_keyword_patterns(keywords: List[str]) -> Dict[str, Pattern[str]]:
+    return {keyword: build_keyword_pattern(keyword) for keyword in keywords}
+
+
+def contains_any_keyword(text: str, keyword_patterns: Dict[str, Pattern[str]]) -> bool:
+    return any(pattern.search(text) for pattern in keyword_patterns.values())
+
+
+def collect_keyword_occurrences(
+    text: str,
+    keyword_patterns: Dict[str, Pattern[str]],
+    stats: Dict[str, int],
+) -> None:
+    for keyword, pattern in keyword_patterns.items():
+        stats[keyword] += len(pattern.findall(text))
 
 
 def filter_genai_related_reviews(
@@ -30,6 +45,7 @@ def filter_genai_related_reviews(
     stats_output_file.parent.mkdir(parents=True, exist_ok=True)
 
     keyword_stats: Dict[str, int] = defaultdict(int)
+    keyword_patterns = build_keyword_patterns(keywords)
 
     for file_path in sorted(input_folder.glob("*.csv")):
         try:
@@ -41,10 +57,10 @@ def filter_genai_related_reviews(
             continue
 
         matched_rows = source_df[source_df["body"].apply(
-            lambda value: isinstance(value, str) and contains_any_keyword(value, keywords)
+            lambda value: isinstance(value, str) and contains_any_keyword(value, keyword_patterns)
         )]
         for body_text in matched_rows["body"].dropna().astype(str):
-            collect_keyword_occurrences(body_text, keywords, keyword_stats)
+            collect_keyword_occurrences(body_text, keyword_patterns, keyword_stats)
 
         if matched_rows.empty:
             continue

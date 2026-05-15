@@ -32,8 +32,8 @@
             "Lack of Value for Money": "Overcharge, low value for high cost",
             "Refund Issues": "For some reason the user requested a refund or had difficulty obtaining a refund"
         },
-        "Propaganda and Advertisement": {
-            "Misleading Propaganda": "The actual functionality and free usage rights are inconsistent with what was promoted",
+        "Marketing and Advertisement": {
+            "Misleading Marketing": "The actual functionality and free usage rights are inconsistent with what was promoted",
             "Advertisements": "Intrusive or aggressive advertisements or pop-ups when use"
         }
     },
