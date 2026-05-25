@@ -1,8 +1,15 @@
 from collections import defaultdict
 from pathlib import Path
-from typing import Dict, List, Pattern
+from typing import Dict, List, Optional, Pattern
+import ast
 import pandas as pd
 import re
+
+try:
+    from langdetect import LangDetectException, detect
+except ImportError:
+    LangDetectException = Exception
+    detect = None
 
 
 def load_keywords(keyword_csv: Path) -> List[str]:
@@ -24,6 +31,67 @@ def build_keyword_patterns(keywords: List[str]) -> Dict[str, Pattern[str]]:
 
 def contains_any_keyword(text: str, keyword_patterns: Dict[str, Pattern[str]]) -> bool:
     return any(pattern.search(text) for pattern in keyword_patterns.values())
+
+
+def normalize_text_value(value: object) -> Optional[str]:
+    if not isinstance(value, str):
+        return None
+
+    text = value.strip()
+    if not text or text.lower() in {"nan", "none", "null"}:
+        return None
+
+    return text
+
+
+def extract_translation_body(value: object) -> Optional[str]:
+    text = normalize_text_value(value)
+    if text is None:
+        return None
+
+    try:
+        parsed_value = ast.literal_eval(text)
+    except (ValueError, SyntaxError):
+        return text
+
+    if isinstance(parsed_value, dict):
+        return normalize_text_value(parsed_value.get("body"))
+
+    return text
+
+
+def looks_like_english(text: str) -> bool:
+    letters = [character for character in text if character.isalpha()]
+    if not letters:
+        return False
+
+    ascii_letters = sum(1 for character in letters if character.isascii())
+    return ascii_letters / len(letters) >= 0.85
+
+
+def is_english_review(text: str, detected_language: object = None) -> bool:
+    language = normalize_text_value(detected_language)
+    if language is not None:
+        return language.lower().startswith("en")
+
+    if detect is not None:
+        try:
+            return detect(text) == "en"
+        except LangDetectException:
+            pass
+
+    return looks_like_english(text)
+
+
+def select_text_for_keyword_matching(row: pd.Series) -> Optional[str]:
+    body_text = normalize_text_value(row.get("body"))
+    if body_text is None:
+        return None
+
+    if is_english_review(body_text, row.get("detected_language")):
+        return body_text
+
+    return extract_translation_body(row.get("translation"))
 
 
 def collect_keyword_occurrences(
@@ -56,11 +124,13 @@ def filter_genai_related_reviews(
         if "body" not in source_df.columns:
             continue
 
-        matched_rows = source_df[source_df["body"].apply(
+        match_texts = source_df.apply(select_text_for_keyword_matching, axis=1)
+        matched_mask = match_texts.apply(
             lambda value: isinstance(value, str) and contains_any_keyword(value, keyword_patterns)
-        )]
-        for body_text in matched_rows["body"].dropna().astype(str):
-            collect_keyword_occurrences(body_text, keyword_patterns, keyword_stats)
+        )
+        matched_rows = source_df[matched_mask]
+        for match_text in match_texts[matched_mask].dropna().astype(str):
+            collect_keyword_occurrences(match_text, keyword_patterns, keyword_stats)
 
         if matched_rows.empty:
             continue

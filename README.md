@@ -12,35 +12,61 @@ Lightweight open-source pipeline for:
 
 ```text
 open_source/
+├── README.md
 ├── code/
+│   ├── app_metadata_genai_keywords.csv
 │   ├── identify_candidate_app.py
+│   ├── reviews_genai_keywords.csv
 │   ├── filter_genai_related_reviews.py
 │   └── rating_analyse_by_llm.py
 └── data/
     ├── app_metadata/
+    │   ├── llm_negative_output.csv
+    │   └── llm_positive_output.csv
     ├── clustering_results/
+    │   ├── high_rating/
+    │   └── low_rating/
     ├── manual_verification_samples/
+    │   ├── 100_apps_tagging_by_LLM.csv
+    │   ├── 1200_reviews_classified_by_LLM.csv
+    │   ├── 200_keywords_filtered_reviews.csv
+    │   └── 400_app_identified_by_LLM.csv
+    ├── reviews/
+    │   ├── google_reviews_high_rating_selected_genai_related.zip
+    │   ├── google_reviews_low_rating_selected_genai_related.zip
+    │   ├── ios_reviews_high_rating_selected_genai_related.zip
+    │   └── ios_reviews_low_rating_selected_genai_related.zip
     └── taxonomy/
+        ├── high_rated_taxonomy.json
+        └── low_rated_taxonomy.json
 ```
 
 ## What Each Script Does
 
 - `code/identify_candidate_app.py`
-  - Keyword pre-filter on app descriptions
-  - LLM-based validation for candidate GenAI apps
+  - Loads metadata-description text files and applies the app-metadata keyword pre-filter.
+  - Uses `code/app_metadata_genai_keywords.csv` as the keyword source.
+  - Writes keyword-level and file-level match statistics.
+  - Sends keyword-matched descriptions to an LLM for final GenAI-app validation.
   - Outputs:
+    - `data/app_metadata/description_filtered_by_keywords/`
+    - `data/app_metadata/keyword_stats/`
     - `data/app_metadata/llm_positive_output.csv`
     - `data/app_metadata/llm_negative_output.csv`
 
 - `code/filter_genai_related_reviews.py`
-  - Split reviews into low/high rating groups
-  - Filter GenAI-related reviews by keywords
+  - Splits app reviews into low-rating (`rating <= 3`) and high-rating (`rating > 3`) groups.
+  - Filters each group for GenAI-related reviews using `reviews_genai_keywords.csv`.
+  - Treats a trailing `*` in review keywords as a wildcard, for example `chat*` can match `chat`, `chatbot`, or `chatting`.
+  - For non-English `body` text, uses the row's `translation` field when available.
+  - Writes per-app filtered CSVs and `keyword_stats.csv` into rating-specific output folders.
 
 - `code/rating_analyse_by_llm.py`
-  - LLM reason extraction for low/high reviews
-  - Two-stage HDBSCAN clustering
-  - Taxonomy-based review tagging
-  - Runs full loops for both `google` and `ios`
+  - Extracts low-rating issues and high-rating strengths from filtered reviews with an LLM.
+  - Aggregates extracted reasons into JSON/CSV files.
+  - Runs first-stage and second-stage HDBSCAN clustering over unique reasons.
+  - Classifies reviews against `data/taxonomy/low_rated_taxonomy.json` or `data/taxonomy/high_rated_taxonomy.json`.
+  - Runs the full post-analysis loop for both `google` and `ios`.
 
 ## Data Notes
 
