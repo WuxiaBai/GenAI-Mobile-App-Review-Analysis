@@ -21,24 +21,10 @@ open_source/
 │   └── rating_analyse_by_llm.py
 └── data/
     ├── app_metadata/
-    │   ├── llm_negative_output.csv
-    │   └── llm_positive_output.csv
     ├── clustering_results/
-    │   ├── high_rating/
-    │   └── low_rating/
     ├── manual_verification_samples/
-    │   ├── 100_apps_tagging_by_LLM.csv
-    │   ├── 1200_reviews_classified_by_LLM.csv
-    │   ├── 200_keywords_filtered_reviews.csv
-    │   └── 400_app_identified_by_LLM.csv
     ├── reviews/
-    │   ├── google_reviews_high_rating_selected_genai_related.zip
-    │   ├── google_reviews_low_rating_selected_genai_related.zip
-    │   ├── ios_reviews_high_rating_selected_genai_related.zip
-    │   └── ios_reviews_low_rating_selected_genai_related.zip
     └── taxonomy/
-        ├── high_rated_taxonomy.json
-        └── low_rated_taxonomy.json
 ```
 
 ## What Each Script Does
